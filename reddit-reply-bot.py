@@ -61,7 +61,7 @@ class Bot:
         random_quote = self.quotes[random_int]
 
         author = '/u/' + str(comment.author)
-        random_quote = random_quote.replace('!YOURNAME', author)
+        random_quote = random_quote.replace('!USERNAME', author)
 
         self.unused_quotes.remove(random_int)
         self.used_quotes.append(random_int)
