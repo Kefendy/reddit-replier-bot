@@ -1,0 +1,8 @@
+client_id = 'client_id_here'
+client_secret = 'client_secret_here'
+username = 'botname' 
+password = 'password'
+user_agent = 'agent'
+subreddit_name = 'subreddit'
+trigger = '.'
+path_to_quotes = './quotes.txt'
